@@ -16,7 +16,21 @@ string Sistema::quit() {
 }
 
 string Sistema::create_user (const string email, const string senha, const string nome) {
-	return "create_user NÃO IMPLEMENTADO";
+
+	for(int i=0;i<usuarios.size();i++){
+		Usuario user("","","");
+
+		user = *usuarios[i];
+		if(user.getEmail() == email){
+			return "Email ja cadastrado!";
+		}
+
+	}
+	Usuario* usuario = new Usuario(email,senha,nome);
+
+	usuarios.push_back(usuario);
+
+	return "Usuário criado";
 }
 
 std::string Sistema::delete_user (const std::string email, const std::string senha){

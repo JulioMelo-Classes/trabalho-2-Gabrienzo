@@ -1,0 +1,3 @@
+/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/build/CMakeFiles/rebuild_cache.dir
+/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/build/CMakeFiles/edit_cache.dir
+/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/build/CMakeFiles/concordo.dir
