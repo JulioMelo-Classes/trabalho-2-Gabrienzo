@@ -36,7 +36,7 @@ cd build
 ***
   
 ## Como executar o conjunto dos testes planejados por você (ou grupo).
-Deixamos alguns comandos basicos prefeitos em [script_comandos.txt](../data/script_comandos.txt)
+Deixamos alguns comandos basicos prefeitos em [script_comandos.txt](script_comandos.txt)
 
 para executa-los basta iniciar o programa desta forma:
 ```console
