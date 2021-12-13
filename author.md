@@ -4,6 +4,6 @@
 - Email: *\<gvplima09@gmail.com>*
 - Turma: *\<T01>*
 
-- Nome: *\<Júlio Cesar da Silva Filho>*
+- Nome: *\<Júlio César da Silva Filho>*
 - Email: *\<juliocesarfilho0112@gmail.com>*
 - Turma: *\<T01>*
