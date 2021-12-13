@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../include/Executor.h
+/home/runner/trab-2-lpp/include/CanalTexto.h
+Usuario.h
+/home/runner/trab-2-lpp/include/Usuario.h
+Mensagem.h
+/home/runner/trab-2-lpp/include/Mensagem.h
+
+/home/runner/trab-2-lpp/include/Executor.h
 Sistema.h
-../include/Sistema.h
+/home/runner/trab-2-lpp/include/Sistema.h
 istream
 -
 ostream
@@ -16,7 +22,17 @@ ostream
 sstream
 -
 
-../include/Sistema.h
+/home/runner/trab-2-lpp/include/Mensagem.h
+Usuario.h
+/home/runner/trab-2-lpp/include/Usuario.h
+
+/home/runner/trab-2-lpp/include/Servidor.h
+Usuario.h
+/home/runner/trab-2-lpp/include/Usuario.h
+CanalTexto.h
+/home/runner/trab-2-lpp/include/CanalTexto.h
+
+/home/runner/trab-2-lpp/include/Sistema.h
 vector
 -
 string
@@ -26,9 +42,15 @@ iostream
 map
 -
 Usuario.h
-../include/Usuario.h
+/home/runner/trab-2-lpp/include/Usuario.h
+Servidor.h
+/home/runner/trab-2-lpp/include/Servidor.h
+Mensagem.h
+/home/runner/trab-2-lpp/include/Mensagem.h
+CanalTexto.h
+/home/runner/trab-2-lpp/include/CanalTexto.h
 
-../include/Usuario.h
+/home/runner/trab-2-lpp/include/Usuario.h
 iostream
 -
 string
@@ -37,8 +59,16 @@ string.h
 -
 vector
 -
+chrono
+-
+ctime
+-
 
-/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Concordo.cpp
+/home/runner/trab-2-lpp/src/CanalTexto.cpp
+../include/CanalTexto.h
+/home/runner/trab-2-lpp/include/CanalTexto.h
+
+/home/runner/trab-2-lpp/src/Concordo.cpp
 iostream
 -
 list
@@ -47,14 +77,14 @@ vector
 -
 string
 -
-Sistema.h
-/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Sistema.h
-Executor.h
-/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Executor.h
+../include/Sistema.h
+/home/runner/trab-2-lpp/include/Sistema.h
+../include/Executor.h
+/home/runner/trab-2-lpp/include/Executor.h
 
-/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Executor.cpp
-Executor.h
-/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Executor.h
+/home/runner/trab-2-lpp/src/Executor.cpp
+../include/Executor.h
+/home/runner/trab-2-lpp/include/Executor.h
 istream
 -
 ostream
@@ -66,17 +96,25 @@ sstream
 queue
 -
 
-/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Sistema.cpp
-Sistema.h
-/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Sistema.h
+/home/runner/trab-2-lpp/src/Mensagem.cpp
+../include/Mensagem.h
+/home/runner/trab-2-lpp/include/Mensagem.h
+
+/home/runner/trab-2-lpp/src/Servidor.cpp
+../include/Servidor.h
+/home/runner/trab-2-lpp/include/Servidor.h
+
+/home/runner/trab-2-lpp/src/Sistema.cpp
+../include/Sistema.h
+/home/runner/trab-2-lpp/include/Sistema.h
 iostream
 -
 sstream
 -
 algorithm
 -
-Sistema.h
-/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Sistema.h
+../include/Sistema.h
+/home/runner/trab-2-lpp/include/Sistema.h
 iostream
 -
 sstream
@@ -84,7 +122,7 @@ sstream
 algorithm
 -
 
-/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Usuario.cpp
-Usuario.h
-/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Usuario.h
+/home/runner/trab-2-lpp/src/Usuario.cpp
+../include/Usuario.h
+/home/runner/trab-2-lpp/include/Usuario.h
 

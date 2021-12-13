@@ -4,10 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Concordo.cpp" "/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/build/CMakeFiles/concordo.dir/src/Concordo.cpp.o"
-  "/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Executor.cpp" "/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/build/CMakeFiles/concordo.dir/src/Executor.cpp.o"
-  "/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Sistema.cpp" "/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/build/CMakeFiles/concordo.dir/src/Sistema.cpp.o"
-  "/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/src/Usuario.cpp" "/home/gabrienzo/atvd1/trabalho-2-Gabrienzo/build/CMakeFiles/concordo.dir/src/Usuario.cpp.o"
+  "/home/runner/trab-2-lpp/src/CanalTexto.cpp" "/home/runner/trab-2-lpp/build/CMakeFiles/concordo.dir/src/CanalTexto.cpp.o"
+  "/home/runner/trab-2-lpp/src/Concordo.cpp" "/home/runner/trab-2-lpp/build/CMakeFiles/concordo.dir/src/Concordo.cpp.o"
+  "/home/runner/trab-2-lpp/src/Executor.cpp" "/home/runner/trab-2-lpp/build/CMakeFiles/concordo.dir/src/Executor.cpp.o"
+  "/home/runner/trab-2-lpp/src/Mensagem.cpp" "/home/runner/trab-2-lpp/build/CMakeFiles/concordo.dir/src/Mensagem.cpp.o"
+  "/home/runner/trab-2-lpp/src/Servidor.cpp" "/home/runner/trab-2-lpp/build/CMakeFiles/concordo.dir/src/Servidor.cpp.o"
+  "/home/runner/trab-2-lpp/src/Sistema.cpp" "/home/runner/trab-2-lpp/build/CMakeFiles/concordo.dir/src/Sistema.cpp.o"
+  "/home/runner/trab-2-lpp/src/Usuario.cpp" "/home/runner/trab-2-lpp/build/CMakeFiles/concordo.dir/src/Usuario.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

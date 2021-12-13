@@ -1,4 +1,4 @@
-#include "Executor.h"
+#include "../include/Executor.h"
 #include <istream>
 #include <ostream>
 #include <iostream>
@@ -34,6 +34,7 @@ void Executor::iniciar(istream &inputStream, ostream &outputStream) {
 	this->sair = false;
 	while (! this->sair)
 	{
+    std::cout << "⮚ ";
 		if (std::getline(inputStream, linha)) {
 			saida = processarLinha(linha);
 			outputStream << saida << endl;
@@ -168,6 +169,10 @@ string Executor::processarLinha(string linha) {
 		else if (nomeComando == "list-messages") {
 			return sistema->list_messages(id);
 		}
+
+    else if (nomeComando == "list-map"){
+      return sistema->list_map(id);
+    }
 		else {
 			return "Comando não reconhecido [" + nomeComando + "]";
 		}

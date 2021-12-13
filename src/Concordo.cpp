@@ -2,8 +2,8 @@
 #include <list>
 #include <vector>
 #include <string>
-#include "Sistema.h"
-#include "Executor.h"
+#include "../include/Sistema.h"
+#include "../include/Executor.h"
 
 using namespace std;
 

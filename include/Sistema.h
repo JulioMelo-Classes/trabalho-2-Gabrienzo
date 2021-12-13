@@ -5,12 +5,17 @@
 #include <iostream>
 #include <map>
 #include "Usuario.h"
+#include "Servidor.h"
+#include "Mensagem.h"
+#include "CanalTexto.h"
 
 
 // Sistema deve concentrar todas as operações do Concordo
 class Sistema {
 	private:
 		std::vector<Usuario*> usuarios;
+    std::vector<Servidor> Servidores;
+    std::map <int, std::pair<unsigned int, unsigned int> > usuariosLogados;
 		
   	public:
 
@@ -18,6 +23,11 @@ class Sistema {
 			@return uma string com a mensagem "Saindo.."
 		*/
 		std::string quit();
+
+    /*! Verifica por meio do id se o usuário se encontra logado ou não.
+      @return um bool contendo true para logado, ou false para deslogado.
+    */
+    bool verif_login(int id);
 
 		/*! Cria um usuário e retorna uma string de erro/sucesso 
 			@param email o email do usuário informado no comando create-user
@@ -185,6 +195,13 @@ class Sistema {
 				@return uma string vazia em caso de sucesso ou uma mensagem de erro em caso de falha.
 		*/
 		std::string list_messages(int id);
+
+    /*! Lista todas as pessoas, id e canais em que cada usuário se encontra dentro do sistema
+      @param id o id usuário
+      @return string vazia
+     */
+    std::string list_map(int id);
+
 };
 
 #endif
