@@ -27,15 +27,22 @@ cd build
 ./concordo
 ```
 
+Ou pode criar um arquivo de texto com uma lista de comandos (um por linha) e executar o sistema redirecionando esse arquivo como entrada padrão:
+```console
+cd build
+./concordo < ../data/script_comandos.txt
+```
+
 ***
   
 ## Como executar o conjunto dos testes planejados por você (ou grupo).
-	Basta digitar os nomes dos arquivos de teste ao iniciar o programa.
-    "nomes.txt" (arquivos de palavras com formatação correta)
-    "scores.txt" (arquivos de scores com formatação correta)
-    "nomes_erro.txt" (arquivos de palavras com formatação incorreta)
-    "scores_erro.txt" (arquivos de scores com formatação incorreta)
+Deixamos alguns comandos basicos prefeitos em [script_comandos.txt](../data/script_comandos.txt)
 
+para executa-los basta iniciar o programa desta forma:
+```console
+cd build
+./concordo < ../data/script_comandos.txt
+```
 ## Limitações ou funcionalidades não implementadas no programa.
 
 ### 1. Limitação: Ao desenvolver o código cada vez mais, notamos que ele estava ficando um pouco grande e talvez desorganizado, se fazendo necessário alguns comentarios durante a criação do código para um melhor direcionamento.
